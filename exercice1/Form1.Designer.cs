@@ -41,6 +41,7 @@
             btn_1.TabIndex = 0;
             btn_1.Text = "button1";
             btn_1.UseVisualStyleBackColor = true;
+            btn_1.Click += btn_1_Click;
             // 
             // btn_2
             // 
@@ -50,6 +51,7 @@
             btn_2.TabIndex = 1;
             btn_2.Text = "button2";
             btn_2.UseVisualStyleBackColor = true;
+            btn_2.Click += btn_2_Click;
             // 
             // btn_3
             // 
@@ -59,6 +61,7 @@
             btn_3.TabIndex = 2;
             btn_3.Text = "button3";
             btn_3.UseVisualStyleBackColor = true;
+            btn_3.Click += btn_3_Click;
             // 
             // Form1
             // 
