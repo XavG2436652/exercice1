@@ -18,7 +18,7 @@ namespace exercice1
         private void btn_3_Click(object sender, EventArgs e)
         {
 
-            MessageBox.Show("E621 train");
+            MessageBox.Show("train");
             MessageBox.Show("R34 car");
 
         }
