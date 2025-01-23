@@ -35,39 +35,45 @@
             // 
             // btn_1
             // 
-            btn_1.Location = new Point(77, 36);
+            btn_1.Location = new Point(88, 48);
+            btn_1.Margin = new Padding(3, 4, 3, 4);
             btn_1.Name = "btn_1";
-            btn_1.Size = new Size(171, 126);
+            btn_1.Size = new Size(195, 168);
             btn_1.TabIndex = 0;
             btn_1.Text = "button1";
             btn_1.UseVisualStyleBackColor = true;
+            btn_1.Click += btn_1_Click;
             // 
             // btn_2
             // 
-            btn_2.Location = new Point(298, 166);
+            btn_2.Location = new Point(341, 221);
+            btn_2.Margin = new Padding(3, 4, 3, 4);
             btn_2.Name = "btn_2";
-            btn_2.Size = new Size(171, 126);
+            btn_2.Size = new Size(195, 168);
             btn_2.TabIndex = 1;
             btn_2.Text = "button2";
             btn_2.UseVisualStyleBackColor = true;
             // 
             // btn_3
             // 
-            btn_3.Location = new Point(558, 274);
+            btn_3.Location = new Point(638, 365);
+            btn_3.Margin = new Padding(3, 4, 3, 4);
             btn_3.Name = "btn_3";
-            btn_3.Size = new Size(171, 126);
+            btn_3.Size = new Size(195, 168);
             btn_3.TabIndex = 2;
             btn_3.Text = "button3";
             btn_3.UseVisualStyleBackColor = true;
+            btn_3.Click += btn_3_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(btn_3);
             Controls.Add(btn_2);
             Controls.Add(btn_1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
