@@ -53,6 +53,7 @@
             btn_2.TabIndex = 1;
             btn_2.Text = "button2";
             btn_2.UseVisualStyleBackColor = true;
+            btn_2.Click += btn_2_Click;
             // 
             // btn_3
             // 

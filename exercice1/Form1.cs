@@ -6,15 +6,21 @@ namespace exercice1
         {
             InitializeComponent();
         }
-
         private void btn_1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Yes");
         }
+        private void btn_2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("No");
+        }
 
         private void btn_3_Click(object sender, EventArgs e)
         {
+
             MessageBox.Show("E621 train");
+            MessageBox.Show("R34 car");
+
         }
     }
 }
